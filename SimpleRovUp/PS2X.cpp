@@ -1,3 +1,8 @@
+/******************************************************************************
+     * Based on the file PS2X_lib.cpp library Arduino-PS2X. 
+     * You can find this project on the link - https://github.com/madsci1016/Arduino-PS2X
+******************************************************************************/
+
 //*******************************  Библиотеки  ******************************//
 // Класс Arduino.
 #include "Arduino.h"
