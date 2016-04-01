@@ -306,14 +306,8 @@ void loop()
         
     // Устанавливаем статус.
     ps2S.statuswork = sendPS2Data;
-    
-    //HeadCmdSend(0, 12, 1);
-    HeadCmdSend(0, 8, 1);
-                      
-    //SerializeStruct((uint8_t*)&ps2S, 12);
-    SerializeStruct((uint8_t*)&ps2S, 8);
-        
-    TailCmdSend();  
+
+    SendStruct((uint8_t*)&ps2S, 8, 1); 
   }   
    
   if (rovDataS.errore == 1)

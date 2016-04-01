@@ -1,6 +1,10 @@
 /******************************************************************************
-     * Based on the file PS2X_lib.cpp library Arduino-PS2X. 
-     * You can find this project on the link - https://github.com/madsci1016/Arduino-PS2X
+     * Based on the file PS2X_lib.cpp from library Arduino-PS2X. 
+     * Author project library Arduino-PS2X - Bill Porter.
+     * Version on commit 48df1d6 on 7 Jul 2013.
+     * Project description Arduino-PS2X - http://www.billporter.info/2010/06/05/playstation-2-controller-arduino-library-v1-0/. 
+     * You can find the code of the Arduino-PS2X project here - https://github.com/madsci1016/Arduino-PS2X
+     * License GNU GPL v3
 ******************************************************************************/
 
 //*******************************  Библиотеки  ******************************//
